@@ -36,3 +36,11 @@
 | Card reader, Type-C | ✅ |
 | Sleep | ✅ with some modifications to BIOS and macOS |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
+## Not working
+| Name | Note |  
+|    :---:     |    :---   |
+| Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
+
+# Preview
+
+<p align="center"><img src="Img\info.png"/></p>

@@ -44,3 +44,7 @@
 # Preview
 
 <p align="center"><img src="Img\info.png"/></p>
+
+# Thanks to
+- [ChefKissInc](https://chefkissinc.github.io)
+- Dortania

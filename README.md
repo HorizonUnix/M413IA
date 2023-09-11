@@ -5,6 +5,9 @@
        height="420"/>
 </p>
 
+# Getting Started
+
+
 # Specification
 
 | Hardware | Name |  
@@ -20,7 +23,7 @@
 | Touchpad | I2C Touchpad |
 | Keyboard | PS2 Keyboard |
 | Card Reader | microSD Card Reader |
-| WebCam | VGA Web Camera |
+| Camera | VGA Web Camera 720p HD |
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |
 
 # Feature
@@ -33,7 +36,7 @@
 | USB | ✅ |
 | Function keys | ✅ Fn+F1/F2/F3/F4/F5/F6 |
 | TouchPad | Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
-| Card reader, Type-C | ✅ |
+| Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS and macOS |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
 ## Not working
@@ -43,7 +46,7 @@
 
 # Preview
 
-<p align="center"><img src="Img\info.png"/></p>
+<img src="Img\info.png"/>
 
 # Thanks to
 - [ChefKissInc](https://chefkissinc.github.io)

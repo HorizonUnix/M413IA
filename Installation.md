@@ -20,8 +20,8 @@ OpenCore is a bootloader that is run by the firmware (BIOS/UEFI) to start macOS
 
 ### Necessary
 
-- [Lilu](https://github.com/acidanthera/Lilu)
-- [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+- [`Lilu`](https://github.com/acidanthera/Lilu)
+- [`VirtualSMC`](https://github.com/acidanthera/VirtualSMC)
 
 You cannot boot at all without these
 
@@ -30,47 +30,47 @@ You cannot boot at all without these
 - `SMCBatteryManager`
 - `SMCLightSensor`
 - `SMCSuperIO`
-- [SMCRadeonSensor](https://github.com/NootInc/RadeonSensor)
-- [AsusSMC](https://github.com/hieplpvip/AsusSMC)
+- [`SMCRadeonSensor`](https://github.com/NootInc/RadeonSensor)
+- [`AsusSMC`](https://github.com/hieplpvip/AsusSMC)
 
 ### Graphics
 
-- [NootedRed](https://github.com/NootInc/NootedRed)
+- [`NootedRed`](https://github.com/NootInc/NootedRed)
 
 ### Audio
 
-- [qhuyduong's AppleALC fork](https://github.com/qhuyduong/AppleALC/)
+- [`qhuyduong's AppleALC fork`](https://github.com/qhuyduong/AppleALC/)
 
 ### Wi-Fi/Bluetooth
 
-- [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)
+- [`AirportItlwm`](https://github.com/OpenIntelWireless/itlwm)
 
 ### USB
 
-- [USBToolBox](https://github.com/USBToolBox/kext)
+- [`USBToolBox`](https://github.com/USBToolBox/kext)
 
 ### Input
 
-- [VoodooPS2](https://github.com/acidanthera/VoodooPS2)
-- [VoodooI2C for AMD by ChefKiss Inc](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip)
+- [`VoodooPS2`](https://github.com/acidanthera/VoodooPS2)
+- [`VoodooI2C for AMD by ChefKiss Inc`](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip)
 
-In this case M413IA touchpad is HID (aka VoodooI2CHID Satellites)
+In this case M413IA touchpad is HID (aka `VoodooI2CHID` Satellites)
 
 ### Storage
 
-- [NVmeFix](https://github.com/acidanthera/NVMeFix)
-- [EmeraldSDHC](https://github.com/acidanthera/EmeraldSDHC)
+- [`NVmeFix`](https://github.com/acidanthera/NVMeFix)
+- [`EmeraldSDHC`](https://github.com/acidanthera/EmeraldSDHC)
 
 ### Extra
 
-- [AppleMCEReporterDisabler](https://chefkissinc.github.io/Extras/Kexts/AppleMCEReporterDisabler.zip)
-- [AmdTscSync](https://github.com/naveenkrdy/AmdTscSync)
-- [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
-- [ECEnabler](https://github.com/1Revenger1/ECEnabler)
-- [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys)
+- [`AppleMCEReporterDisabler`](https://chefkissinc.github.io/Extras/Kexts/AppleMCEReporterDisabler.zip)
+- [`AmdTscSync`](https://github.com/naveenkrdy/AmdTscSync)
+- [`RestrictEvents`](https://github.com/acidanthera/RestrictEvents)
+- [`ECEnabler`](https://github.com/1Revenger1/ECEnabler)
+- [`BrightnessKeys`](https://github.com/acidanthera/BrightnessKeys)
 
 ## ACPI
 
-Download (SSDTTime)[https://github.com/corpnewt/SSDTTime]
+Download (`SSDTTime`)[https://github.com/corpnewt/SSDTTime]
 
 ### Version 0.4

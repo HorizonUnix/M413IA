@@ -1,8 +1,8 @@
 <h1 align="center">Hackintosh Guide for ASUS M413IA</h1>
 <p align="center">
   <img src="Img\vivobook.png"
-       width="400" 
-       height="420"/>
+       width="300" 
+       height="320"/>
 </p>
 
 # Getting Started

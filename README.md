@@ -35,7 +35,7 @@
 | Wifi and BlueTooth | ✅ Worked with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFireware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
 | USB | ✅ |
 | Function keys | ✅ Fn+F1/F2/F3/F4/F5/F6 |
-| TouchPad | Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
+| TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS and macOS |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
@@ -43,6 +43,7 @@
 | Name | Note |  
 |    :---:     |    :---   |
 | Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
+| VCN 2 | ❌ VCN (Video Core Next) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
 
 # Preview
 

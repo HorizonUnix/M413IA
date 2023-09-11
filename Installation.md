@@ -68,3 +68,9 @@ In this case M413IA touchpad is HID (aka VoodooI2CHID Satellites)
 - [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
 - [ECEnabler](https://github.com/1Revenger1/ECEnabler)
 - [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys)
+
+## ACPI
+
+Download (SSDTTime)[https://github.com/corpnewt/SSDTTime]
+
+### Version 0.4

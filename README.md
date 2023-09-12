@@ -44,6 +44,7 @@
 |    :---:     |    :---   |
 | Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
 | VCN 2 | ❌ VCN (Video Core Next) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
+| Wake from Sleep | ❓ Cannot wake by mouse or other usb devices (will result black screen) in 10 mins after Sleep |
 
 # Preview
 

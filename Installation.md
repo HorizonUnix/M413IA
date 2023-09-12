@@ -98,7 +98,7 @@ Enable these:
 - `Booter->Quirks->RebuildAppleMemoryMap`
 - `Booter->Quirks->SignalAppleOS`
 - `Booter->Quirks->SyncTimePermissions`
-
+-
 - `Kernel->Quirks->DisableLinkeditJettison`
 - `Kernel->Quirks->PanicNoKextDump`
 - `Kernel->Quirks->PowerTimeoutKernelPanic`
@@ -112,6 +112,8 @@ Enable these:
 - `Misc->Security->AuthRestart`
 - `Misc->Security->AllowSetDefault`
 - `Misc->Security->BlacklistAppleUpdate`
+
+### ETA: 2 weeks
 ### Version 0.5
 ### Credits
 - ChefKissInc

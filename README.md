@@ -7,6 +7,7 @@
 
 # Getting Started
 
+- [Installation guide](/Installation.md)
 
 # Specification
 

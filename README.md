@@ -1,4 +1,4 @@
-<h1 align="center">Hackintosh Guide for ASUS M413IA</h1>
+<h1 align="center">Hackintosh for ASUS M413IA</h1>
 <p align="center">
   <img src="Img/vivobook.png"
        width="400" 

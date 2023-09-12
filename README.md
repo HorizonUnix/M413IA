@@ -48,8 +48,8 @@
 | Wake from Sleep | ❓ Cannot wake by mouse or other usb devices (will result black screen) in 10 mins after Sleep |
 
 # Preview
+<img src="Img\info.png" alt="About This Mac" title="About This Mac">
 
-<img src="Img\info.png"/>
 
 # Thanks to
 - [ChefKissInc](https://chefkissinc.github.io)

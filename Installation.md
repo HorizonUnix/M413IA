@@ -31,6 +31,7 @@ You cannot boot at all without these
 - `SMCLightSensor`
 - `SMCSuperIO`
 - [`SMCRadeonSensor`](https://github.com/NootInc/RadeonSensor)
+- [`SMCProcessorAMD`](https://github.com/Lorys89/SMCProcessorAMD)
 - [`AsusSMC`](https://github.com/hieplpvip/AsusSMC)
 
 ### Graphics
@@ -71,6 +72,9 @@ In this case M413IA touchpad is HID (aka `VoodooI2CHID` Satellites)
 
 ## ACPI
 
-Download (`SSDTTime`)[https://github.com/corpnewt/SSDTTime]
+Download [`SSDTTime`](https://github.com/corpnewt/SSDTTime)
 
 ### Version 0.4
+### Credits
+- ChefKissInc
+- Dortania

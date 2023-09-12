@@ -3,7 +3,8 @@
 # Preparation 
 - A USB drive with sufficient storage (Minimum 8GB)
 - A Plist editor (OCAT, ProperTree)
-
+- Make sure Python is installed
+  
 # Building EFI
 ## OpenCore
 OpenCore is a bootloader that is run by the firmware (BIOS/UEFI) to start macOS
@@ -70,11 +71,48 @@ In this case M413IA touchpad is HID (aka `VoodooI2CHID` Satellites)
 - [`ECEnabler`](https://github.com/1Revenger1/ECEnabler)
 - [`BrightnessKeys`](https://github.com/acidanthera/BrightnessKeys)
 
+After download all kext, please drag to `EFI/OC/Kexts` and do a clean snapshot using ProperTree.
 ## ACPI
 
 Download [`SSDTTime`](https://github.com/corpnewt/SSDTTime)
 
-### Version 0.4
+1. Run .bat file
+2. Press `P` to dump DSDT
+3. Press `1` then `C`
+4. Press `3`
+5. Press `4` then `B`
+6. Press `5`
+7. Press `8`
+8. Press `0` then pick the one that has `19`
+9. Press `A` then `A` again
+
+After that, run `PatchMerge.bat` and follow the intrusction, also only drag the .aml file not .dsl to `EFI/OC/ACPI` and never drag `DSDT.aml`.
+## Configuration
+Enable these:
+- `Booter->Quirks->AvoidRuntimeDefrag`
+- `Booter->Quirks->DevirtualiseMmio`
+- `Booter->Quirks->DiscardHibernateMap`
+- `Booter->Quirks->EnableSafeModeSlide`
+- `Booter->Quirks->ProvideCustomSlide`
+- `Booter->Quirks->SetupVirtualMap`
+- `Booter->Quirks->RebuildAppleMemoryMap`
+- `Booter->Quirks->SignalAppleOS`
+- `Booter->Quirks->SyncTimePermissions`
+
+- `Kernel->Quirks->DisableLinkeditJettison`
+- `Kernel->Quirks->PanicNoKextDump`
+- `Kernel->Quirks->PowerTimeoutKernelPanic`
+- `Kernel->Quirks->ProvideCurrentCpuInfo`
+- `Kernel->Emulate->DummyPowerManagement`
+- 
+- `Misc->Boot->HideAuxillary` (press space will show extra option)
+- `Misc->Boot->PollAppleHotKeys`
+- `Misc->Boot->ShowPicker`
+- `Misc->Boot->HibernateSkipsPicker`
+- `Misc->Security->AuthRestart`
+- `Misc->Security->AllowSetDefault`
+- `Misc->Security->BlacklistAppleUpdate`
+### Version 0.5
 ### Credits
 - ChefKissInc
 - Dortania

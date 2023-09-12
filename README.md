@@ -1,6 +1,6 @@
 <h1 align="center">Hackintosh Guide for ASUS M413IA</h1>
 <p align="center">
-  <img src="Img\vivobook.png"
+  <img src="Img/vivobook.png"
        width="300" 
        height="320"/>
 </p>
@@ -48,7 +48,7 @@
 | Wake from Sleep | ❓ Cannot wake by mouse or other usb devices (will result black screen) in 10 mins after Sleep |
 
 # Preview
-<img src="Img\info.png" alt="About This Mac" title="About This Mac">
+<img src="Img/info.png" alt="About This Mac" title="About This Mac">
 
 
 # Thanks to

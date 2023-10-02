@@ -93,6 +93,7 @@ Enable these:
 - `Booter->Quirks->DevirtualiseMmio`
 - `Booter->Quirks->DiscardHibernateMap`
 - `Booter->Quirks->EnableSafeModeSlide`
+- `Booter->Quirks->EnableWriteUnprotector`
 - `Booter->Quirks->ProvideCustomSlide`
 - `Booter->Quirks->SetupVirtualMap`
 - `Booter->Quirks->RebuildAppleMemoryMap`
@@ -112,7 +113,33 @@ Enable these:
 - `Misc->Security->AuthRestart`
 - `Misc->Security->AllowSetDefault`
 - `Misc->Security->BlacklistAppleUpdate`
-etc...
+
+- `NVRAM->7C436110-AB2A-4BBB-A880-FE41995C9F82->boot-args-> -v ` (boot-args | String | -v)
+
+- `PI->Generic->SpoofVender`
+- `PI->Generic->Automatic`
+- `PI->Generic->UpdateDataHub`
+- `PI->Generic->UpdateSMBIOS`
+- `PI->Generic->UpdateNVRAM`
+
+- `UEFI->ConnectDrivers`
+- `UEFI->APFS->EnableJumpstart`
+- `UEFI->APFS->HideVerbose`
+- `UEFI->APFS->MinDate-> -1 `
+- `UEFI->APFS->MinVersion-> -1 `
+- `UEFI->AppleInput->GraphicsInputMirroring`
+- `UEFI->Audio->AudioSupport`
+- `UEFI->Input->KeySupport`
+- `UEFI->Input->PointerSupport`
+- `UEFI->Output->ProvideConsoleGop`
+- `UEFI->ProtocolOverrides->HashServices`
+- `UEFI->Quirks->EnableVectorAcceleration`
+- `UEFI->Quirks->DisableSecurityPolicy`
+- `UEFI->Quirks->ActiveHpetSupport`
+- `UEFI->Quirks->EnableVmx`
+- `UEFI->Quirks->RequestBootVarRouting`
+
+Etc...
 # Installer
 ## Online
 We will use the `macrecovery.py` included in OpenCorePkg folder (`OpenCorePkg/Utilities/macrecovery`)
@@ -125,7 +152,7 @@ We will use the `macrecovery.py` included in OpenCorePkg folder (`OpenCorePkg/Ut
 
 
 ### ETA: 2 weeks
-### Version 0.5
+### Version 0.6
 ### Credits
 - ChefKissInc
 - Dortania

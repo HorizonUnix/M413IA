@@ -1,8 +1,8 @@
 <h1 align="center">Hackintosh for ASUS M413IA</h1>
 <p align="center">
   <img src="Img/vivobook.png"
-       width="400" 
-       height="420"/>
+       width="500" 
+       height="520"/>
 </p>
 
 # Getting Started
@@ -38,14 +38,14 @@
 | Function keys | ✅ Fn+F1/F2/F3/F4/F5/F6 |
 | TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
-| Sleep | ✅ with some modifications to BIOS and macOS |
+| Sleep | ✅ with some modifications to BIOS |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
 ## Not working
 | Name | Note |  
 |    :---:     |    :---   |
 | Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
 | VCN 2 | ❌ VCN (Video Core Next) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
-| Wake from Sleep | ❓ Cannot wake by mouse or other usb devices (will result black screen) in 10 mins after Sleep |
+
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">

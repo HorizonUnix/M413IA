@@ -150,7 +150,11 @@ We will use the `macrecovery.py` included in OpenCorePkg folder (`OpenCorePkg/Ut
 - macOS Ventura (13): `python3 macrecovery.py -b Mac-B4831CEBD52A0C4C -m 00000000000000000 download`
 - macOS Sonoma (14): ...
 
+## Offline
+No eta
 
+# Install
+##
 ### ETA: 2 weeks
 ### Version 0.6
 ### Credits

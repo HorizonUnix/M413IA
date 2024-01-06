@@ -35,7 +35,7 @@
 | Audio | ✅ Both speaker and microphone worked but HDMI is not working (NRed) |
 | Wifi and BlueTooth | ✅ Worked with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
 | USB | ✅ |
-| Function keys | ✅ F1/F2/F3/F4/F5/F6 (w/o Fn and Fn+Esc worked |
+| Function keys | ✅ F1/F2/F3/F4/F5/F6 (w/o Fn and Fn+Esc worked) |
 | TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS and macOS kernel |

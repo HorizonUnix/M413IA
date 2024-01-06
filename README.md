@@ -51,4 +51,4 @@
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
 
 
-## Hey since i was banned from ChefKissInc so i guess i'll public this thing, no more restricion and tbh that guy is very very arrogant and hope he will get karma soon
+## Hey since i was banned from ChefKissInc so i guess i'll public this thing, no more restriction and tbh that guy is very very arrogant and hope he will get karma soon

@@ -49,7 +49,7 @@
 ## Function keys
 
 > [!NOTE]
-> Like using Windows you can use Function keys without Fn+Fx since i've mapped it all
+> Like when using Windows you can use Function keys without Fn+Fx since i've mapped it all
 > - Fn+Esc is also working
 > - F1: Mute
 > - F2: Decrease volume

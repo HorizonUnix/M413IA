@@ -35,7 +35,7 @@
 | Audio | ✅ Both speaker and microphone worked but HDMI is not working (NRed) |
 | Wifi and BlueTooth | ✅ Worked with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
 | USB | ✅ |
-| Function keys | ✅ F1/F2/F3/F4/F5/F6 (w/o Fn and Fn+Esc worked) |
+| Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc worked |
 | TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS and macOS kernel |
@@ -44,8 +44,23 @@
 | Name | Note |  
 |    :---:     |    :---   |
 | Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
-| VCN 2 | ❌ VCN (Video Core Next) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
+| VCN 2 | ❌ VCN 2 (Video Core Next 2) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
 
+## Function keys
+
+> [!NOTE]
+> Like using Windows you can use Function keys without Fn+Fx since i've mapped it all
+> - Fn+Esc is also working
+> - F1: Mute
+> - F2: Decrease volume
+> - F3: Increase volume
+> - F4: Decrease brightness
+> - F5: Increase brightness
+> - F6: On/Off Touchpad
+> - F7: Decrease/Increase keyboard backlight
+> - F8: Show Desktop
+> - F10: On/Off Display
+> - F12: Play/Pause
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">

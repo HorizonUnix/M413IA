@@ -58,12 +58,11 @@
 > - F4: Decrease brightness
 > - F5: Increase brightness
 > - F6: On/Off Touchpad
-> - F7: Decrease/Increase keyboard backlight
+> - F7: Limit Battery Charging 80%/100%
 > - F8: Show Desktop
 > - F10: On/Off Display
 > - F12: Play/Pause
-> - Fn + Space: Limit Battery Charging 80%/100%
-> - 
+
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
 

@@ -13,7 +13,7 @@ jobs:
         name: Fetches latest release tag
         shell: sh
         run: |
-          LATEST_TAG="$(grep -m 1 -o '## \[.*\]' docs/CHANGELOG.md | awk -F'[][]' '{print $2}')"
+          LATEST_TAG="$(grep -m 1 -o '## \[.*\]' Changelog.md | awk -F'[][]' '{print $2}')"
           echo "TAG=$LATEST_TAG" >> "$GITHUB_ENV"
 
       - name: Zip folder

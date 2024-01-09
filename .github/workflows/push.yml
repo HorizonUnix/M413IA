@@ -27,7 +27,7 @@ jobs:
         name: Generate Release Notes
         shell: sh
         run: |
-          BODY="$(sed -n "/## \[$TAG\]/,/## \[/p" docs/CHANGELOG.md | sed -e '1,2d;$d')"
+          BODY="$(sed -n "/## \[$TAG\]/,/## \[/p" Changelog.md | sed -e '1,2d;$d')"
           echo "$BODY" > ${{ github.workspace }}-RELEASE_NOTES.txt
         env:
           TAG: ${{ env.TAG }}

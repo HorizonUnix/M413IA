@@ -7,7 +7,7 @@
 
 # Getting Started
 
-- [Installation guide](/Installation.md)
+**Coming soon**
 
 # Specification
 
@@ -38,13 +38,14 @@
 | Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc worked |
 | TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
-| Sleep | ✅ with some modifications to BIOS and macOS kernel |
+| Sleep | ✅ with some modifications to BIOS |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
+
 ## Not working
 | Name | Note |  
 |    :---:     |    :---   |
-| Continuity feature | ❌ HandOff, AirDrop not worked on Intel Wi-fi card |
-| VCN 2 | ❌ VCN 2 (Video Core Next 2) which is not working, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
+| Continuity feature | ❌ Only HandOff and some features are only work with Intel WiFi card |
+| VCN 2 | ❌ VCN 2 (Video Core Next 2) which is not working but VCN 1 is, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
 
 ## Function keys
 
@@ -61,7 +62,8 @@
 > - F8: Show Desktop
 > - F10: On/Off Display
 > - F12: Play/Pause
-
+> - Fn + Space: Limit Battery Charging 80%/100%
+> - 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
 

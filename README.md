@@ -21,8 +21,8 @@
 | Wi-Fi Card | Intel® Wi-Fi 6 AX200 |
 | Audio | Realtek ALC256 |
 | Display | 14.0-inch FHD (1920 x 1080) IPS Non-Touch Screen |
-| Touchpad | I2C Touchpad |
-| Keyboard | PS2 Keyboard |
+| Touchpad | ELAN I2C Touchpad (ELAN WBF included) |
+| Keyboard | PS2 Keyboard (ASUS ATKD) with no keyboard backlight |
 | Card Reader | microSD Card Reader |
 | Camera | VGA Web Camera 720p HD |
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |

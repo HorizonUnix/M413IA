@@ -1,0 +1,41 @@
+name: Generate Release
+on: workflow_dispatch
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest repository commit
+        uses: actions/checkout@v4
+        with:
+          show-progress: false
+
+      - id: get-tag
+        name: Fetches latest release tag
+        shell: sh
+        run: |
+          LATEST_TAG="$(grep -m 1 -o '## \[.*\]' docs/CHANGELOG.md | awk -F'[][]' '{print $2}')"
+          echo "TAG=$LATEST_TAG" >> "$GITHUB_ENV"
+
+      - name: Zip folder
+        run: |
+          sudo apt-get install -y zip
+          zip -r EFI.zip EFI
+        env:
+          TAG: ${{ env.TAG }}
+
+      - id: generate-notes
+        name: Generate Release Notes
+        shell: sh
+        run: |
+          BODY="$(sed -n "/## \[$TAG\]/,/## \[/p" docs/CHANGELOG.md | sed -e '1,2d;$d')"
+          echo "$BODY" > ${{ github.workspace }}-RELEASE_NOTES.txt
+        env:
+          TAG: ${{ env.TAG }}
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: v${{ env.TAG }}
+          tag_name: ${{ env.TAG }}
+          body_path: ${{ github.workspace }}-RELEASE_NOTES.txt
+          files: EFI.zip

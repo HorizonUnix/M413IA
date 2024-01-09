@@ -3,5 +3,5 @@
 - Fixed random AppleUSB kernel panic after wake from sleep
 - Fixed Fn keys do not work after wake from sleep
 - Removed some useless SSDTs and ACPI Patches
-- Changed F7 keys from `Disable/Enable TouchPad` to `Limit battery charging 80%/100%`
-- Unmaped some useless keys
+- Changed F7 keys from `Increase/Decrease keyboard backlight` to `Limit battery charging 80%/100%`
+

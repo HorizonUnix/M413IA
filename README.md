@@ -30,20 +30,23 @@
 # Feature
 ## Working
 | Name | Note |  
-|    :---:     |    :---   |
+|    :---:     |    :---:   |
+| SMBios | MacBookPro16,3 |
 | iGPU/APU | ✅ Worked with [NootedRed](https://github.com/ChefKissInc/NootedRed) |
-| Audio | ✅ Both speaker and microphone worked but HDMI is not working (NRed) |
+| Audio | ✅ Both internal speaker and microphone worked but HDMI is not working (NRed) |
 | Wifi and BlueTooth | ✅ Worked with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
 | USB | ✅ |
 | Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc worked |
 | TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS |
+| Battery | ✅ Battery Health and Charging Limit feature |
 | Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
 
 ## Not working
 | Name | Note |  
-|    :---:     |    :---   |
+|    :---:     |    :---:  |
+| Apple DRM | ❌ Apple TV, anything that related to DRM |
 | Continuity feature | ❌ Only HandOff and some features are only work with Intel WiFi card |
 | VCN 2 | ❌ VCN 2 (Video Core Next 2) which is not working but VCN 1 is, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
 
@@ -60,7 +63,9 @@
 > - F6: On/Off Touchpad
 > - F7: Limit Battery Charging 80%/100%
 > - F8: Show Desktop
+> - F9: N/A
 > - F10: On/Off Display
+> - F11: N/A
 > - F12: Play/Pause
 
 # Preview

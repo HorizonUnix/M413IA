@@ -30,7 +30,7 @@
 
 ## Extra hardwares
 > [!NOTE]
-> These hardware are not included in default spec for M413IA
+> These hardware are not included in default spec of M413IA
 
 | Hardware | Name |  Note |
 |    :---:     |    :---:   |  :---:   |

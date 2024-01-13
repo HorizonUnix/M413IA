@@ -7,7 +7,8 @@
 
 # Getting Started
 
-**Coming soon**
+> [!NOTE]
+> **Coming soon**
 
 # Specification
 
@@ -27,6 +28,14 @@
 | Camera | VGA Web Camera 720p HD |
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |
 
+## Extra hardwares
+> [!NOTE]
+> These hardware are not included in default spec for M413IA
+
+| Hardware | Name |  Note |
+|    :---:     |    :---:   |  :---:   |
+| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA have 2 NVMe M.2 slott so i fill last M.2 slot with this |
+| Wi-Fi Card | Dell DW1820A ( BCM94350Z ) | Replace for Intel® Wi-Fi 6 AX200 ( not recommend to use ) |
 # Feature
 ## Working
 | Name | Note |  

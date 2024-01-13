@@ -34,7 +34,7 @@
 
 | Hardware | Name |  Note |
 |    :---:     |    :---:   |  :---:   |
-| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA have 2 NVMe M.2 slott so i fill last M.2 slot with this |
+| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA have 2 NVMe M.2 slots so i filled the last M.2 slot with this |
 | Wi-Fi Card | Dell DW1820A ( BCM94350Z ) | Replace for Intel® Wi-Fi 6 AX200 ( not recommend to use ) |
 # Feature
 ## Working

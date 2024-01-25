@@ -1,10 +1,11 @@
-<h1 align="center">(WIP) Hackintosh for ASUS M413IA</h1>
+<h1 align="center">(Suspended) Hackintosh for ASUS M413IA</h1>
 <p align="center">
   <img src="Img/vivobook.png"
        width="300" 
        height="320"/>
 </p>
 
+## ⚠️ Starting from **`25/01/2024`**, this repo will be suspended by GFx until **`7/2024`** ⚠️
 # Getting Started
 
 > [!NOTE]

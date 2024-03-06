@@ -6,11 +6,9 @@
 </p>
 
 ## ⚠️ Starting from **`25/01/2024`**, this repo will be suspended by GFx until **`7/2024`** ⚠️
-# Getting Started
 
 > [!NOTE]
-> **Coming soon**
-
+> - This model contains a CNVi only key lock or something like whitelist so it will never support **BCM94360NG**, if you still want to have some conti features then try DW series from Dell like DW1560 or DW1820A
 # Specification
 
 | Hardware | Name |  

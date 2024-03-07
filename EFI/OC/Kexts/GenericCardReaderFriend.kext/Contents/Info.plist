@@ -68,16 +68,16 @@
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>Physical Interconnect Location</key>
-			<string>Internal</string>
+			<string>External</string>
 			<key>Protocol Characteristics</key>
 			<dict>
 				<key>Physical Interconnect</key>
 				<string>USB</string>
 			</dict>
 			<key>idProduct</key>
-			<integer>375</integer>
+			<integer>0x6366</integer>
 			<key>idVendor</key>
-			<integer>3034</integer>
+			<integer>0x058f</integer>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>

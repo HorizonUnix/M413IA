@@ -1,3 +1,14 @@
+## [1.3.0]
+
+- Rewrite whole EFI
+- Dropped support for macOS BS, Catalina
+- Removed `AMDRyzenCPUPowerManagement.kext` and `SMCAMDProcessor.kext` both now replace with [UXTU4Mac](https://github.com/gorouflex/RielUXTU4Mac)
+- Use another way to map USB
+- Fix ACPI
+- Fix Patches
+- Fix black screen when system is wake by external keyboard
+- Now user have to manually add their Intel WiFi card kext
+
 ## [1.2.0]
 
 ## Changes

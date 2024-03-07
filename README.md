@@ -1,11 +1,9 @@
-<h1 align="center">(Suspended) Hackintosh for ASUS M413IA</h1>
+<h1 align="center">Hackintosh for ASUS M413IA</h1>
 <p align="center">
   <img src="Img/vivobook.png"
        width="300" 
        height="320"/>
 </p>
-
-## ⚠️ Starting from **`25/01/2024`**, this repo will be suspended by GFx until **`7/2024`** ⚠️
 
 > [!NOTE]
 > - This model contains a CNVi only key lock or something like whitelist so it will never support **BCM94360NG**, if you still want to have some conti features then try DW series from Dell like DW1560 or DW1820A

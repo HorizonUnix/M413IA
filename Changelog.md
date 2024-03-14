@@ -1,3 +1,12 @@
+## [1.4.0]
+
+- Fix Airdrop issue on DW 1820A now fully functional
+- Update NootedRed
+- Use custom AMDRyzenPP kext for disable CPB only on macOS
+- Fix an issue related to PCI
+- Update Patches
+- Update ACPI
+
 ## [1.3.0]
 
 - Rewrite whole EFI

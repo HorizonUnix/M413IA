@@ -6,7 +6,7 @@
 </p>
 
 > [!NOTE]
-> - This model contains a CNVi only key lock or something like whitelist so it will never support **BCM94360NG**, if you still want to have some conti features then try DW series from Dell like DW1560 or DW1820A
+> - This model contains a CNVi only key lock or something like a whitelist, so it will never support **BCM94360NG**. If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
 # Specification
 
 | Hardware | Name |  
@@ -25,42 +25,42 @@
 | Camera | VGA Web Camera 720p HD |
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |
 
-## Extra hardwares
+## Extra Hardware
 > [!NOTE]
-> These hardware are not included in default spec of M413IA
+> This hardware is not included in the default spec of M413IA.
 
 | Hardware | Name |  Note |
 |    :---:     |    :---:   |  :---:   |
-| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA have 2 NVMe M.2 slots so i filled the last M.2 slot with this |
-| Wi-Fi Card | Dell DW1820A ( BCM94350Z ) | Replace for Intel® Wi-Fi 6 AX200 ( not recommend to use ) |
-# Feature
+| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA has 2 NVMe M.2 slots, so I filled the last M.2 slot with this. |
+| Wi-Fi Card | Dell DW1820A ( BCM94350ZAE ) | Replacement for Intel® Wi-Fi 6 AX200 (not recommended to use). |
+# Features
 ## Working
 | Name | Note |  
 |    :---:     |    :---:   |
 | SMBios | MacBookPro16,3 |
-| iGPU/APU | ✅ Worked with [NootedRed](https://github.com/ChefKissInc/NootedRed) |
-| Audio | ✅ Both internal speaker and microphone worked but HDMI is not working (NRed) |
-| Wifi and BlueTooth | ✅ Worked with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
+| iGPU/APU | ✅ Works with NootedRed |
+| Audio | ✅ Both internal speaker and microphone work, but HDMI is not working (NRed) |
+| Wifi and BlueTooth | ✅ Works with AirportItlwm and IntelBluetoothFirmware |
 | USB | ✅ |
-| Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc worked |
-| TouchPad | ✅ Worked with AMD support [Voodool I2C](https://github.com/VoodooI2C/VoodooI2C/commit/f9f703b760711e25bd094058ecb6f19dea52dc5f) kext from ChefKiss |
+| Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc work |
+| TouchPad | ✅ Works with AMD support Voodool I2C kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
 | Sleep | ✅ with some modifications to BIOS |
 | Battery | ✅ Battery Health and Charging Limit feature |
-| Extra | Battery last for 2 hours, temperature often be between 45ºC to 65ºC |
+| Extra | Battery lasts for 2 hours, temperature often is between 45ºC to 65ºC |
 
 ## Not working
 | Name | Note |  
 |    :---:     |    :---:  |
 | Apple DRM | ❌ Apple TV, anything that related to DRM |
-| Continuity feature | ❌ Only HandOff and some features are only work with Intel WiFi card |
-| VCN 2 | ❌ VCN 2 (Video Core Next 2) which is not working but VCN 1 is, this is NRed bug refer to [this](https://github.com/ChefKissInc/NootedRed/issues/28) and [this](https://github.com/ChefKissInc/NootedRed/issues/158) |
+| Continuity feature | ❌ Only HandOff and some features only work with Intel WiFi card |
+| VCN 2 | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
 
 ## Function keys
 
 > [!NOTE]
-> Like when using Windows you can use Function keys without Fn+Fx since i've mapped it all
-> - Fn+Esc is also working
+> Like when using Windows, you can use Function keys without Fn+Fx since I've mapped them all.
+> - Fn+Esc is also working.
 > - F1: Mute
 > - F2: Decrease volume
 > - F3: Increase volume
@@ -76,6 +76,3 @@
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
-
-
-## Hey since i was banned from ChefKissInc so i guess i'll public this thing, no more restriction and tbh that guy is very very arrogant and hope he will get karma soon

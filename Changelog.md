@@ -1,3 +1,12 @@
+## [1.5.0]
+
+- Fix Airdrop issue, WiFi on DW 1820A
+- Proper support for SDCard
+- Fix USBMap
+- Support WiFi on Sonoma (please turn off IO kexts if using it below Sonoma)
+- Fix Kexts
+- Update NootedRed
+
 ## [1.4.0]
 
 - Fix Airdrop issue on DW 1820A now fully functional

@@ -32,7 +32,7 @@
 | Hardware | Name |  Note |
 |    :---:     |    :---:   |  :---:   |
 | Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA has 2 NVMe M.2 slots, so I filled the last M.2 slot with this. |
-| Wi-Fi Card | Dell DW1820A ( BCM94350ZAE ) | Replacement for Intel® Wi-Fi 6 AX200 (not recommended to use). |
+| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended to use) | Replacement for Intel® Wi-Fi 6 AX200. |
 # Features
 ## Working
 | Name | Note |  
@@ -40,21 +40,25 @@
 | SMBios | MacBookPro16,3 |
 | iGPU/APU | ✅ Works with NootedRed |
 | Audio | ✅ Both internal speaker and microphone work, but HDMI is not working (NRed) |
-| Wifi and BlueTooth | ✅ Works with AirportItlwm and IntelBluetoothFirmware |
-| USB | ✅ |
+| WiFi and BlueTooth (Intel) | ✅ Works with AirportItlwm and IntelBluetoothFirmware |
+| WiFi and BlueTooth (DW 1820A) | ✅ Works with AirportBrcmFixup and BcrmPatchRam |
+| Continuity feature (DW 1820A) |✅ Only works with AirDrop, AirPlay, and partially HandOff |
+| USB | ✅ Map with USBMap |
 | Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc work |
 | TouchPad | ✅ Works with AMD support Voodool I2C kext from ChefKiss |
 | Card reader, Type-C port | ✅ |
-| Sleep | ✅ with some modifications to BIOS |
+| Sleep | ✅ with some modifications to BIOS, works like native Macs |
 | Battery | ✅ Battery Health and Charging Limit feature |
+| IOReg | Proper IOReg |
 | Extra | Battery lasts for 2 hours, temperature often is between 45ºC to 65ºC |
 
 ## Not working
 | Name | Note |  
 |    :---:     |    :---:  |
 | Apple DRM | ❌ Apple TV, anything that related to DRM |
-| Continuity feature | ❌ Only HandOff and some features only work with Intel WiFi card |
-| VCN 2 | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
+| Continuity feature (Intel) | ❌ Only HandOff and some features only work with Intel WiFi card |
+| VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
+| DW 1820A | ❌ Random kernel panic with AirportBrcmFixup, no current workaround |
 
 ## Function keys
 

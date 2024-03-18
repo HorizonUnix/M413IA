@@ -1,3 +1,9 @@
+## [1.6.0]
+
+- Fix Kernel Panic on DW 1820A by set a delay for native BCM kext
+- Update NootedRed
+- Remove CPUName patch on RE due to some issues with AMD (again)
+- Set UpdateSMBios to Custom for OEM software on Windows
 ## [1.5.0]
 
 - Fix Airdrop issue, WiFi on DW 1820A

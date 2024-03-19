@@ -6,7 +6,7 @@
 </p>
 
 > [!NOTE]
-> - This model contains a CNVi only key lock so it will never support **BCM94360NG**/or you have to buy a NVMe adapter (not tested)s. If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
+> - This model contains a CNVi only key lock so it will never support **BCM94360NG**/or you have to buy a NVMe adapter (not tested). If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
 # Specification
 
 | Hardware | Name |  
@@ -58,7 +58,7 @@
 | Apple DRM | ❌ Apple TV, anything that related to DRM |
 | Continuity feature (Intel) | ❌ Only HandOff and some features only work with Intel WiFi card |
 | VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
-| DW 1820A | ❌ Random kernel panic with AirportBrcmFixup, no current workaround |
+| DW 1820A | ❌ Random kernel panic with AirportBrcmFixup, current workaround is set a delay for native kext |
 
 ## Function keys
 

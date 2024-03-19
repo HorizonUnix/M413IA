@@ -6,7 +6,7 @@
 </p>
 
 > [!NOTE]
-> - This model contains a CNVi only key lock or something like a whitelist, so it will never support **BCM94360NG**. If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
+> - This model contains a CNVi only key lock so it will never support **BCM94360NG**/or you have to buy a NVMe adapter (not tested)s. If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
 # Specification
 
 | Hardware | Name |  

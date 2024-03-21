@@ -1,3 +1,10 @@
+## [1.7.0]
+
+- Native Sleep
+- Fix ACPI
+- Fix Patch
+- Proper DP inject
+- Fix Kexts
 ## [1.6.0]
 
 - Fix Kernel Panic on DW 1820A by set a delay for native BCM kext

@@ -24,14 +24,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-ASUS-Shutdown.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ASUS-Shutdown.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-ATKD.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -48,43 +40,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-Bridge.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-Bridge.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-DMAC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-DTGP.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DTGP.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-FWHD.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-FWHD.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -112,22 +72,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-LAN.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-LAN.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-MEM2.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-OCWork-asus.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -144,35 +88,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PMC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PPMC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PPMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PTSWAKTTS.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PTSWAKTTS.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -216,19 +136,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XSPI.aml</string>
+				<string>SSDT-XWAK.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-ZWAK.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-ZWAK.aml</string>
+				<string>SSDT-XWAK.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -451,37 +363,7 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>[S3 Sleep] _PTS to ZPTS(1,N)</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X1BUUwE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WlBUUwE=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>[S3 Sleep] _WAK to ZWAK(1,N)</string>
+				<string>[S3 Sleep] _WAK to XWAK(1,N)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -495,7 +377,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WldBSwE=</data>
+				<data>WFdBSwE=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -930,6 +812,14 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
+				<key>brcmfx-aspm</key>
+				<integer>255</integer>
+				<key>brcmfx-country</key>
+				<string>#a</string>
+				<key>brcmfx-delay</key>
+				<integer>2000</integer>
+				<key>brcmfx-wowl</key>
+				<data>AQAAAA==</data>
 				<key>compatible</key>
 				<string>pci14e4,4331</string>
 				<key>device_type</key>
@@ -1006,7 +896,7 @@
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
 				<key>model</key>
-				<string>AMD Radeon Graphics Renoir APU</string>
+				<string>AMD Radeon RX Vega 6 Renoir APU</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x1)</key>
 			<dict>
@@ -1721,24 +1611,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>GenericCardReaderFriend.kext</string>
-				<key>Comment</key>
-				<string>GenericCardReaderFriend.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/GenericCardReaderFriend</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
 				<string>HibernationFixup.kext</string>
@@ -1952,6 +1824,36 @@
 		<array/>
 		<key>Patch</key>
 		<array>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_apfs_filevault_allowed</string>
+				<key>Comment</key>
+				<string>Force FileVault on Broken Seal</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.filesystems.apfs</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>20.4.0</string>
+				<key>Replace</key>
+				<data>uAEAAADD</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
@@ -2866,7 +2768,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x144 -lilubetaall -amfipassbeta -btlfxallowanyaddr brcmfx-delay=700 brcmfx-aspm brcmfx-country=#a brcmfx-wowl bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
+				<string>debug=0x144 -lilubetaall -amfipassbeta</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>run-efi-updater</key>
@@ -2910,13 +2812,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02008500QX00001M</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>cD6sM4v3</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -2924,9 +2826,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C95ZYP3XY</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>B85E8A3A-99EE-4D43-A91B-7BA7645DF2A5</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -3186,9 +3088,9 @@
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
-			<false/>
+			<true/>
 			<key>AppleDebugLog</key>
-			<false/>
+			<true/>
 			<key>AppleEg2Info</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
@@ -3206,7 +3108,7 @@
 			<key>AppleSmcIo</key>
 			<true/>
 			<key>AppleUserInterfaceTheme</key>
-			<false/>
+			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>

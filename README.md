@@ -12,15 +12,15 @@
 | Hardware | Name |  
 |    :---:     |    :---:   |
 | Model  | Asus VivoBook M413IA EK480T |  
-| Processor | AMD Ryzen® 5 4500U | 
-| Ram | 8GB Onboard |
-| Graphics | AMD Radeon® Vega 6 |
-| Storage | Intel® SSDPEKNW512G8 |
-| Wi-Fi Card | Intel® Wi-Fi 6 AX200 |
+| Processor | AMD Ryzen 5 4500U with Radeon Graphics | 
+| Ram | 8GB Hynix onboard ram |
+| Graphics | Renior APU aka AMD Radeon Vega 6 |
+| Storage | Intel SSDPEKNW512G8 or SSD 660P Series |
+| Wi-Fi Card | Intel Wi-Fi 6 AX200 |
 | Audio | Realtek ALC256 |
 | Display | 14.0-inch FHD (1920 x 1080) IPS Non-Touch Screen |
 | Touchpad | ELAN I2C Touchpad (ELAN WBF included) |
-| Keyboard | PS2 Keyboard (ASUS ATKD) with no keyboard backlight |
+| Keyboard | PS2 Keyboard with no keyboard backlight |
 | Card Reader | microSD Card Reader |
 | Camera | VGA Web Camera 720p HD |
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |
@@ -32,7 +32,7 @@
 | Hardware | Name |  Note |
 |    :---:     |    :---:   |  :---:   |
 | Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA has 2 NVMe M.2 slots, so I filled the last M.2 slot with this. |
-| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended to use) | Replacement for Intel® Wi-Fi 6 AX200. |
+| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended to use) | Replacement for Intel Wi-Fi 6 AX200. |
 # Features
 ## Working
 | Name | Note |  

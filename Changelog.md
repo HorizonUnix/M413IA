@@ -1,3 +1,6 @@
+## [1.8.0]
+
+- Optimize EFI
 ## [1.7.0]
 
 - Native Sleep

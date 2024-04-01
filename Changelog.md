@@ -1,3 +1,12 @@
+## [1.9.0]
+
+- Fix USB issues
+- Fix Sleep issues
+- Remove legacy patch about USB and Sleep
+- Remove legacy patch for NootedRed
+- Proper USB mapping
+- Fix PCI injection 
+- Update NootedRed kext
 ## [1.8.0]
 
 - Optimize EFI

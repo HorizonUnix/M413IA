@@ -32,14 +32,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -53,14 +45,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-KBD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-OCWork-asus.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-OCWork-asus.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -96,11 +80,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-USBW.aml</string>
+				<string>SSDT-USB-Reset.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-USBW.aml</string>
+				<string>SSDT-USB-Reset.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -317,37 +301,7 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>[S3 Sleep] Change GPRW to XPRW</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>R1BSVwI=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WFBSVwI=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>[S3 Sleep] _WAK to XWAK(1,N)</string>
+				<string>[S3 Sleep] _WAK to XWAK</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -657,141 +611,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir/Cezanne Root Complex</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,2</string>
-				<key>device_type</key>
-				<string>IOMMU</string>
-				<key>model</key>
-				<string>Renoir/Cezanne IOMMU</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,0</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>FCH SMBus Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,3</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>Wildcat Point-LP LPC Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 0</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,1</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,2</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 2</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,3</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 3</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,4</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 4</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,5</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 5</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,6</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 6</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x7)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,7</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir Device 24: Function 7</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,2</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Renoir/Cezanne PCIe GPP Bridge</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x2)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -809,127 +628,10 @@
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,3</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Renoir/Cezanne PCIe GPP Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x3)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,3/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>WD Black SN750 / PC SN730 / Red SN700 NVMe SSD</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,4</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Renoir/Cezanne PCIe GPP Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x4)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,4/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>SSD 660P Series</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Renoir PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Renoir Internal PCIe GPP Bridge to Bus</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>CQClPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,0</string>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAJ5XycAAAAAAEeAQSlHxFgAm+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBijmAEHE4KEAwIDYANa4QAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBOVDE0MEZITS1ONDQKAHQ=</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
-				<key>model</key>
-				<string>AMD Radeon RX Vega 6 Renoir APU</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,1</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>model</key>
-				<string>Renoir Radeon High Definition Audio Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,2</string>
-				<key>device_type</key>
-				<string>Encryption controller</string>
-				<key>model</key>
-				<string>Family 17h (Models 10h-1fh) Platform Security Processor</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,3</string>
-				<key>acpi-wake-type</key>
-				<data>AQAAAA==</data>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Renoir/Cezanne USB 3.1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,4</string>
-				<key>acpi-wake-type</key>
-				<data>AQAAAA==</data>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Renoir/Cezanne USB 3.1</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,6</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>WAAAAA==</data>
-				<key>model</key>
-				<string>Family 17h/19h HD Audio Controller</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1148,24 +850,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBWakeFixup.kext</string>
-				<key>Comment</key>
-				<string>USBWakeFixup.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBWakeFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1768,36 +1452,6 @@
 		<array/>
 		<key>Patch</key>
 		<array>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>_apfs_filevault_allowed</string>
-				<key>Comment</key>
-				<string>Force FileVault on Broken Seal</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.filesystems.apfs</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>20.4.0</string>
-				<key>Replace</key>
-				<data>uAEAAADD</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
 			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
@@ -2707,7 +2361,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x144 -lilubetaall -amfipassbeta</string>
+				<string>debug=0x144 -amfipassbeta</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>run-efi-updater</key>

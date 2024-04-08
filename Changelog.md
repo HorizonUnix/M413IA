@@ -1,3 +1,13 @@
+## [2.0.0]
+
+- Remove built-in UMAF tools
+- Remove ELAN Fingerprint for power saving and prevent some random wake up
+- Rework themes
+- Remap ATKD keyboard
+- Fix ACPI patch
+- Add TRIM patch
+- Add BT delay
+### This update brings a native Mac experience 
 ## [1.9.0]
 
 - Fix USB issues

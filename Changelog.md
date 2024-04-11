@@ -1,3 +1,9 @@
+## [2.0.1]
+
+- Remove unused kext
+- Add some cosmetic SSDTs
+- Use USBToolBox instead of USBMap due to lacks of XHCI controllers
+- Remove unused Kernel patches
 ## [2.0.0]
 
 - Remove built-in UMAF tools

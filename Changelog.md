@@ -1,13 +1,17 @@
-## 2.1.0
+## [2.1.0]
 
 ### 2.1.0
 - Update Kexts
-- Completely remove DP injections for DW
+- Completely remove DP injections for DW 1820A
+- Fix Kernel Panic on DW 1820A
 ### 2.0.1
 - Remove unused kext
 - Add some cosmetic SSDTs
-- Use USBToolBox instead of USBMap due to lacks of XHCI controllers
 - Remove unused Kernel patches
+- Fix BlueTooth issue
+- Support [PatchSonomaWiFiOnTheFly](https://github.com/AppleOSX/PatchSonomaWiFiOnTheFly)
+- Proper USB mapping
+- Use another layout-id for ALC
 ## [2.0.1]
 
 - Remove unused kext

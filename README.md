@@ -58,7 +58,7 @@
 | Apple DRM | ❌ Apple TV, anything that related to DRM |
 | Continuity feature (Intel) | ❌ Only HandOff and some features only work with Intel WiFi card |
 | VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
-| DW 1820A | ❌ Random kernel panic with AirportBrcmFixup, current workaround is set a delay for native kext |
+| DW 1820A | ✅ (Solved) Random kernel panic with AirportBrcmFixup, current workaround is remove all Injector from AirportBrcmFixup |
 
 ## Function keys
 
@@ -81,3 +81,6 @@
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
+
+> [!CAUTION]
+> - I **believe** the members and owners of ChefKiss Inc. **should not** concern themselves with this EFI repository. Why? Because I have been banned from both Telegram and GitHub by ChefKiss (Visual), so I **do not** have any concerns about it.

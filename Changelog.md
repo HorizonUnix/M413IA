@@ -1,10 +1,9 @@
 ## [2.2.0]
 
-- Proper support for Apple Safe Boot (Hibernate mode 3)
-- Update **ChefKiss**'s kext
+- Provide proper support for Apple's Safe Boot (Hibernate mode 3)
+- Update `ChefKiss`'s kext
 - Support [GenericNVMeName](https://github.com/AppleOSX/GenericNVMeName)
-- Force ASPM disable to DW 1820A (like Apple's native Airport card) to fix some issue with BlueTooth, WiFi and random freeze
-
+- Force ASPM to disable with DW 1820A (similar to Apple's native Airport card) to fix issues with Bluetooth, WiFi, and random freezing
 ## [2.1.0]
 
 ### 2.1.0

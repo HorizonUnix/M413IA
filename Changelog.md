@@ -1,3 +1,8 @@
+## [2.3.0]
+
+- Add base Intel card kext
+- Auto Apple Safe Sleep instead of normal sleep
+- Add work-around for Win/Mac dual booting
 ## [2.2.0]
 
 - Provide proper support for Apple's Safe Boot (Hibernate mode 3)

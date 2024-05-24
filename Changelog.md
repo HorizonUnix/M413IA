@@ -1,3 +1,8 @@
+## [2.4.0]
+
+- Update OC to `1.0.0`
+- Update NootedRed
+- Remove BRCM card support
 ## [2.3.0]
 
 - Add base Intel card kext

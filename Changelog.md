@@ -1,3 +1,8 @@
+## [2.5.0]
+
+- Update Kexts
+- Use TSC Sync kext from ChefKiss
+### For the L2T dream!
 ## [2.4.0]
 
 - Update OC to `1.0.0`

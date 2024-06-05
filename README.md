@@ -5,8 +5,10 @@
        height="320"/>
 </p>
 
+> [!CAUTION]
+> This repo will switch to a release schedule of every 2 months and will likely drop out of support since I’m getting a new laptop
 > [!NOTE]
-> - This model contains a CNVi only key lock so it will never support **BCM94360NG**/or you have to buy a NVMe adapter (not tested). If you still want to have some continuity features, then try the DW series from Dell, like DW1560 or DW1820A.
+> - This model contains a CNVi only lock key or something like that so it will never support **BCM94360NG**. If you still want to have some continuity features, then try the DW series from Dell, like DW1560
 # Specification
 
 | Hardware | Name |  

@@ -1,3 +1,10 @@
+## [2.6.0]
+
+- Change Apple ALC layout-id to `56`
+- Fix USB mapping
+- Remove some useless kext
+- Use `itlwm.kext` instead of `AirportItlwm.kext` (AirportItlwm.kext` sucks)
+- Fix OC files
 ## [2.5.0]
 
 - Update Kexts

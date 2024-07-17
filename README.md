@@ -1,90 +1,87 @@
 <h1 align="center">Hackintosh for ASUS M413IA</h1>
 <p align="center">
-  <img src="Img/vivobook.png"
-       width="300" 
-       height="320"/>
+  <img src="Img/vivobook.png" width="300" height="320"/>
 </p>
 
 > [!CAUTION]
-> This repo will switch to a release schedule of every 2 months and will likely drop out of support since I’m getting a new laptop
-
+> This repository will transition to a bi-monthly release schedule and may eventually lose support as I am upgrading to a new laptop.
 
 > [!NOTE]
-> - This model contains a CNVi only lock key or something like that so it will never support **BCM94360NG**. If you still want to have some continuity features, then try the DW series from Dell, like DW1560
-# Specification
+> - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560.
 
-| Hardware | Name |  
-|    :---:     |    :---:   |
-| Model  | Asus VivoBook M413IA EK480T |  
-| Processor | AMD Ryzen 5 4500U with Radeon Graphics | 
-| Ram | 8GB Hynix onboard ram |
-| Graphics | Renior APU aka AMD Radeon Vega 6 |
-| Storage | Intel SSDPEKNW512G8 or SSD 660P Series |
-| Wi-Fi Card | Intel Wi-Fi 6 AX200 |
-| Audio | Realtek ALC256 |
-| Display | 14.0-inch FHD (1920 x 1080) IPS Non-Touch Screen |
-| Touchpad | ELAN I2C Touchpad (ELAN WBF included) |
-| Keyboard | PS2 Keyboard with no keyboard backlight |
-| Card Reader | microSD Card Reader |
-| Camera | VGA Web Camera 720p HD |
-| Battery | 42WHrs, 3S1P, 3-cell Li-ion |
+# Specifications
 
-## Extra Hardware
+| Hardware | Details |  
+| :---: | :---: |  
+| Model | Asus VivoBook M413IA EK480T |  
+| Processor | AMD Ryzen 5 4500U with Radeon Graphics |  
+| RAM | 8GB Hynix onboard RAM |  
+| Graphics | Renior APU (AMD Radeon Vega 6) |  
+| Storage | Intel SSDPEKNW512G8 or SSD 660P Series |  
+| Wi-Fi Card | Intel Wi-Fi 6 AX200 |  
+| Audio | Realtek ALC256 |  
+| Display | 14.0-inch FHD (1920 x 1080) IPS Non-Touch Screen |  
+| Touchpad | ELAN I2C Touchpad (ELAN WBF included) |  
+| Keyboard | PS2 Keyboard without backlight |  
+| Card Reader | microSD Card Reader |  
+| Camera | VGA Web Camera (720p HD) |  
+| Battery | 42WHrs, 3S1P, 3-cell Li-ion |  
+
+## Additional Hardware
 > [!NOTE]
-> This hardware is not included in the default spec of M413IA.
+> This hardware is not included in the default configuration of the M413IA.
 
-| Hardware | Name |  Note |
-|    :---:     |    :---:   |  :---:   |
-| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA has 2 NVMe M.2 slots, so I filled the last M.2 slot with this. |
-| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended to use) | Replacement for Intel Wi-Fi 6 AX200. |
+| Hardware | Details | Note |  
+| :---: | :---: | :---: |  
+| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA includes 2 NVMe M.2 slots, utilized the second slot for this SSD. |  
+| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended) | Replacement for Intel Wi-Fi 6 AX200. |  
+
 # Features
-## Working
-| Name | Note |  
-|    :---:     |    :---:   |
-| SMBios | MacBookPro16,3 |
-| iGPU/APU | ✅ Works with NootedRed |
-| Audio | ✅ Both internal speaker and microphone work, but HDMI is not working (NRed) |
-| WiFi and BlueTooth (Intel) | ✅ Works with AirportItlwm and IntelBluetoothFirmware |
-| WiFi and BlueTooth (DW 1820A) | ✅ Works with AirportBrcmFixup and BcrmPatchRam |
-| Continuity feature (DW 1820A) |✅ Only works with AirDrop, AirPlay, and partially HandOff |
-| USB | ✅ Map with USBMap |
-| Function keys | ✅ F1/F2/F3/F4/F5/F6/F7/F8/F10/F12 and Fn+Esc work |
-| TouchPad | ✅ Works with AMD support Voodool I2C kext from ChefKiss |
-| Card reader, Type-C port | ✅ |
-| Sleep | ✅ with some modifications to BIOS, works like native Macs |
-| Battery | ✅ Battery Health and Charging Limit feature |
-| IOReg | Proper IOReg |
-| Extra | Battery lasts for 2 hours, temperature often is between 45ºC to 65ºC |
+## Functional
+| Feature | Status |  
+| :---: | :---: |  
+| SMBios | MacBookPro16,3 |  
+| iGPU/APU | ✅ Functional with NootedRed |  
+| Audio | ✅ Internal speakers and microphone operational; HDMI audio unsupported (NRed) |  
+| Wi-Fi and Bluetooth (Intel) | ✅ Functional with AirportItlwm and IntelBluetoothFirmware |  
+| Wi-Fi and Bluetooth (DW 1820A) | ✅ Operational with AirportBrcmFixup and BcrmPatchRam |  
+| Continuity Features (DW 1820A) | ✅ Limited to AirDrop, AirPlay, and partially Handoff |  
+| USB | ✅ Successfully mapped with USBMap |  
+| Function Keys | ✅ Fully operational (F1-F12 and Fn+Esc) |  
+| TouchPad | ✅ Fully functional via AMD support Voodoo I2C kext from ChefKiss |  
+| Card Reader and Type-C Port | ✅ Fully operational |  
+| Sleep Functionality | ✅ Works seamlessly with BIOS modifications, similar to native Macs |  
+| Battery Management | ✅ Battery health and charging limit features available |  
+| IOReg | Properly configured IOReg |  
+| Additional Notes | Battery life approximately 2 hours; typical temperature range: 45ºC to 65ºC |  
 
-## Not working
-| Name | Note |  
-|    :---:     |    :---:  |
-| Apple DRM | ❌ Apple TV, anything that related to DRM |
-| Continuity feature (Intel) | ❌ Only HandOff and some features only work with Intel WiFi card |
-| VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) is not working, but VCN 1 is |
-| DW 1820A | ✅ (Solved) Random kernel panic with AirportBrcmFixup, current workaround is remove all Injector from AirportBrcmFixup |
+## Non-Functional
+| Feature | Status |  
+| :---: | :---: |  
+| Apple DRM | ❌ Unsupported (Apple TV and other DRM-related content) |  
+| Continuity Features (Intel) | ❌ Only limited Handoff functionality with Intel WiFi card |  
+| VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) non-functional, VCN 1 operational |  
+| DW 1820A Kernel Panic | ✅ (Resolved) Addressed random kernel panic with AirportBrcmFixup; current workaround: remove all injectors from AirportBrcmFixup |  
 
-## Function keys
+## Function Keys
 
 > [!NOTE]
-> Like when using Windows, you can use Function keys without Fn+Fx since I've mapped them all.
-> - Fn+Esc is also working.
+> Function keys are mapped for direct use without needing to press Fn+Fx, akin to a Windows environment.
+> - Fn+Esc is functional.
 > - F1: Mute
 > - F2: Decrease volume
 > - F3: Increase volume
 > - F4: Decrease brightness
 > - F5: Increase brightness
-> - F6: On/Off Touchpad
+> - F6: Toggle Touchpad
 > - F7: Previous track
 > - F8: Show Desktop
 > - F9: N/A
 > - F10: Play/Pause
 > - F11: N/A
 > - F12: Next track
-> - Fn + Space: Limit 80%/100% battery charge
+> - Fn + Space: Set battery charge limit to 80%/100%
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
 
-> [!CAUTION]
-> - I **believe** the members and owners of ChefKiss Inc. **should not** concern themselves with this EFI repository. Why? Because I have been banned from both Telegram and GitHub by ChefKiss (Visual), so I **do not** have any concerns about their **rules**.

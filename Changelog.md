@@ -1,3 +1,10 @@
+## [2.7.0]
+
+- Fix USB kext issue
+- Remove HPET patches
+- Update kexts
+- Remove cosmetic SSDT
+- Update kernel patches
 ## [2.6.0]
 
 - Change Apple ALC layout-id to `56`

@@ -294,7 +294,7 @@
 					<key>HIDF12EjectDelay</key>
 					<integer>250</integer>
 					<key>LogScanCodes</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>Make Application key into Apple Fn key</key>
 					<false/>
 					<key>Make Application key into right windows</key>

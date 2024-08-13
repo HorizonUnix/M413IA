@@ -1,3 +1,6 @@
+## [2.8.0]
+
+### Extend support patch to `v3.0.0`
 ## [2.7.0]
 
 - Fix USB kext issue

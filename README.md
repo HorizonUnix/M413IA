@@ -4,10 +4,11 @@
 </p>
 
 > [!CAUTION]
-> This repository will transition to a bi-monthly release schedule and may eventually lose support as I am upgrading to a new laptop.
+> - This repository will lose support after `v.3.0.0` as I am upgrading to a new laptop.
+> - After `v.2.7.0`, there are 3 extended support update before completely lose support
 
 > [!NOTE]
-> - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560.
+> - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560, DW1820A.
 
 # Specifications
 
@@ -15,9 +16,9 @@
 | :---: | :---: |  
 | Model | Asus VivoBook M413IA EK480T |  
 | Processor | AMD Ryzen 5 4500U with Radeon Graphics |  
-| RAM | 8GB Hynix onboard RAM |  
+| RAM | 8GB Onboard RAM |  
 | Graphics | Renior APU (AMD Radeon Vega 6) |  
-| Storage | Intel SSDPEKNW512G8 or SSD 660P Series |  
+| Storage | Intel SSDPEKNW512G8 aka SSD 660P Series |  
 | Wi-Fi Card | Intel Wi-Fi 6 AX200 |  
 | Audio | Realtek ALC256 |  
 | Display | 14.0-inch FHD (1920 x 1080) IPS Non-Touch Screen |  
@@ -27,15 +28,6 @@
 | Camera | VGA Web Camera (720p HD) |  
 | Battery | 42WHrs, 3S1P, 3-cell Li-ion |  
 
-## Additional Hardware
-> [!NOTE]
-> This hardware is not included in the default configuration of the M413IA.
-
-| Hardware | Details | Note |  
-| :---: | :---: | :---: |  
-| Storage | WDC PC SN730 SDBQNTY-512G-1001 | M413IA includes 2 NVMe M.2 slots, utilized the second slot for this SSD. |  
-| Wi-Fi Card | Dell DW1820A (BCM94350ZAE) (not recommended) | Replacement for Intel Wi-Fi 6 AX200. |  
-
 # Features
 ## Functional
 | Feature | Status |  
@@ -44,8 +36,6 @@
 | iGPU/APU | ✅ Functional with NootedRed |  
 | Audio | ✅ Internal speakers and microphone operational; HDMI audio unsupported (NRed) |  
 | Wi-Fi and Bluetooth (Intel) | ✅ Functional with AirportItlwm and IntelBluetoothFirmware |  
-| Wi-Fi and Bluetooth (DW 1820A) | ✅ Operational with AirportBrcmFixup and BcrmPatchRam |  
-| Continuity Features (DW 1820A) | ✅ Limited to AirDrop, AirPlay, and partially Handoff |  
 | USB | ✅ Successfully mapped with USBMap |  
 | Function Keys | ✅ Fully operational (F1-F12 and Fn+Esc) |  
 | TouchPad | ✅ Fully functional via AMD support Voodoo I2C kext from ChefKiss |  
@@ -61,7 +51,6 @@
 | Apple DRM | ❌ Unsupported (Apple TV and other DRM-related content) |  
 | Continuity Features (Intel) | ❌ Only limited Handoff functionality with Intel WiFi card |  
 | VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) non-functional, VCN 1 operational |  
-| DW 1820A Kernel Panic | ✅ (Resolved) Addressed random kernel panic with AirportBrcmFixup; current workaround: remove all injectors from AirportBrcmFixup |  
 
 ## Function Keys
 

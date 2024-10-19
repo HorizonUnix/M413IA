@@ -1,3 +1,6 @@
+## [2.9.0]
+- Support macOS Sequoia
+  
 ## [2.8.0]
 
 ### Extend support patch to `v3.0.0`

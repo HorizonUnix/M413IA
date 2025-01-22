@@ -1,3 +1,7 @@
+## [3.0.0]
+
+- Better support for macOS Sequoia
+
 ## [2.9.0]
 - Support macOS Sequoia
   

@@ -3,10 +3,6 @@
   <img src="Img/vivobook.png" width="300" height="320"/>
 </p>
 
-> [!CAUTION]
-> - This repository will lose support after `v.3.0.0` as I am upgrading to a new laptop.
-> - After `v.2.7.0`, there are 3 extended support update before completely lose support
-
 > [!NOTE]
 > - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560, DW1820A.
 
@@ -33,16 +29,16 @@
 | Feature | Status |  
 | :---: | :---: |  
 | SMBios | MacBookPro16,3 |  
-| iGPU/APU | ✅ Functional with NootedRed |  
+| iGPU/APU | ✅ Functional |  
 | Audio | ✅ Internal speakers and microphone operational; HDMI audio unsupported (NRed) |  
-| Wi-Fi and Bluetooth (Intel) | ✅ Functional with AirportItlwm and IntelBluetoothFirmware |  
-| USB | ✅ Successfully mapped with USBMap |  
-| Function Keys | ✅ Fully operational (F1-F12 and Fn+Esc) |  
-| TouchPad | ✅ Fully functional via AMD support Voodoo I2C kext from ChefKiss |  
+| Wi-Fi and Bluetooth (Intel) | ✅ Functional with AirportItlwm (patched by OCLP for 14+) and IntelBluetoothFirmware |  
+| USB | ✅ Successfully mapped with USBToolBox |  
+| Function Keys | ✅ Fully operational (Native) |  
+| TouchPad | ✅ Fully functional |  
 | Card Reader and Type-C Port | ✅ Fully operational |  
-| Sleep Functionality | ✅ Works seamlessly with BIOS modifications, similar to native Macs |  
+| Sleep Functionality | ✅ Works seamlessly with BIOS modifications through UMAF, similar to native Macs |  
 | Battery Management | ✅ Battery health and charging limit features available |  
-| IOReg | Properly configured IOReg |  
+| IOReg | ✅ Properly configured IOReg |  
 | Additional Notes | Battery life approximately 2 hours; typical temperature range: 45ºC to 65ºC |  
 
 ## Non-Functional
@@ -56,7 +52,7 @@
 
 > [!NOTE]
 > Function keys are mapped for direct use without needing to press Fn+Fx, akin to a Windows environment.
-> - Fn+Esc is functional.
+> - Fn+Esc: Function key lock
 > - F1: Mute
 > - F2: Decrease volume
 > - F3: Increase volume
@@ -65,10 +61,11 @@
 > - F6: Toggle Touchpad
 > - F7: Previous track
 > - F8: Show Desktop
-> - F9: N/A
+> - F9: N/A (Ctrl + L)
 > - F10: Play/Pause
-> - F11: N/A
+> - F11: N/A (Ctrl + Shift + S)
 > - F12: Next track
+> - Prt Sc: F13
 > - Fn + Space: Set battery charge limit to 80%/100%
 
 # Preview

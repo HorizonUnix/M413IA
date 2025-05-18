@@ -1,3 +1,10 @@
+## [3.1.0]
+
+
+- Updated Kexts, ACPI, and patches
+- Now preserves the current charge limit status during sleep and wake; charge limit is enabled by default on every boot
+- Improved support for macOS Sequoia 15.4
+
 ## [3.0.0]
 
 - Better support for macOS Sequoia

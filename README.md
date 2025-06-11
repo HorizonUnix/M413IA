@@ -3,6 +3,9 @@
   <img src="Img/vivobook.png" width="300" height="320"/>
 </p>
 
+> [!CAUTION]
+> - With the end of Intel Macs and Hackintosh support, the last macOS version, 26 Tahoe, will be the final one to support them. I plan to release the final version for macOS 26.4. So, I guess we'll have to wait about 9 months or so
+
 > [!NOTE]
 > - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560, DW1820A.
 

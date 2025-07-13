@@ -1,3 +1,12 @@
+## [3.2.0]
+
+- Starting with `v4.0 Beta 3` (in the pre-release section) and `v3.2.0`, the EFI is now streamlined and optimized to provide the most native macOS experience possible on the M413IA Hackintosh
+- Fixed and optimized USB mapping issues and random kernel panics related to `USBMap.kext`
+- Fixed and optimized Sleep (S3) and Hibernation (S4) functionality
+- Removed or disabled unused kexts and OpenCore quirks
+- Partially fixed the Battery Limiter functionality
+- Updated kexts, ACPI files, and patches
+
 ## [3.1.0]
 
 

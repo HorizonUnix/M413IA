@@ -8,6 +8,7 @@
 
 > [!NOTE]
 > - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560, DW1820A.
+> - Use [ComboJack](https://github.com/macos86/ComboJack) to fix the 3.5mm audio port issue.
 
 # Specifications
 

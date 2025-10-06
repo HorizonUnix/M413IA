@@ -1,3 +1,8 @@
+## [3.2.1]
+
+- Removed `iBridge.kext` to prevent corruption of the macOS installer due to a required BridgeOS update.
+- Added support for [ComboJack](https://github.com/macos86/ComboJack) to fix the 3.5mm audio port.
+
 ## [3.2.0]
 
 - Starting with `v4.0 Beta 3` (in the pre-release section) and `v3.2.0`, the EFI is now streamlined and optimized to provide the most native macOS experience possible on the M413IA Hackintosh

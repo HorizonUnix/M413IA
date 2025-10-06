@@ -475,7 +475,7 @@
 				<key>alctcsel</key>
 				<data>AQAAAA==</data>
 				<key>layout-id</key>
-				<integer>13</integer>
+				<integer>56</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -910,24 +910,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ForgedInvariant</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>iBridged.kext</string>
-				<key>Comment</key>
-				<string>iBridged.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/iBridged</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>

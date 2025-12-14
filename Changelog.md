@@ -1,3 +1,6 @@
+## [3.2.2]
+- Updated Kexts, OC,...
+
 ## [3.2.1]
 
 - Removed `iBridge.kext` to prevent corruption of the macOS installer due to a required BridgeOS update.

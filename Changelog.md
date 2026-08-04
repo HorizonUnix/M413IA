@@ -1,3 +1,8 @@
+## [3.3.0]
+
+- Updated kexts, OpenCore (OC) files, and patches
+- Added support for [ZenTune](https://github.com/HorizonUnix/ZenTune) and [ZenMaster](https://github.com/HorizonUnix/ZenMaster)
+
 ## [3.2.2]
 
 - Updated Kexts, OC,...

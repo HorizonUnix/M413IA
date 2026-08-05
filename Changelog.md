@@ -1,3 +1,9 @@
+## [3.4.0]
+
+- Updated ACPI Patches
+- Fixed USB wake issues
+- Removed forced spoofing of the AMD LPC as an Intel LPC for SMBus driver attachment
+
 ## [3.3.0]
 
 - Updated kexts, OpenCore (OC) files, and patches

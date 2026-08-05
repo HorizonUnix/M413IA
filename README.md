@@ -3,12 +3,10 @@
   <img src="Img/vivobook.png" width="300" height="320"/>
 </p>
 
-> [!CAUTION]
-> - With the end of Intel Macs and Hackintosh support, the last macOS version, 26 Tahoe, will be the final one to support them. I plan to release the final version for macOS 26.4. So, I guess we'll have to wait about 9 months or so
-
 > [!NOTE]
-> - This model features a CNVi-only lock key, preventing support for **BCM94360NG**. For continuity features, consider using the Dell DW series, such as the DW1560, DW1820A.
+> - This model features a CNVi-only lock key, preventing support for **BCM94360NG**.
 > - Use [ComboJack](https://github.com/macos86/ComboJack) to fix the 3.5mm audio port issue.
+> - Tahoe support will be delayed until I find a way to prevent sleep from causing a kernel panic on Tahoe
 
 # Specifications
 
@@ -33,17 +31,17 @@
 | Feature | Status |  
 | :---: | :---: |  
 | SMBios | MacBookPro16,3 |  
+| CPU Power Management | ✅ Use [ZenTune](https://github.com/HorizonUnix/ZenTune) |
 | iGPU/APU | ✅ Functional |  
-| Audio | ✅ Internal speakers and microphone operational; HDMI audio unsupported (NRed) |  
+| Audio | ✅ Internal speakers and microphone operational (AppleALC layout 56 for ALC256 with ComboJack); HDMI audio unsupported (Use VoodooHDA instead of AppleALC) |  
 | Wi-Fi and Bluetooth (Intel) | ✅ Functional with AirportItlwm (patched by OCLP for 14+) and IntelBluetoothFirmware |  
-| USB | ✅ Successfully mapped with USBToolBox |  
-| Function Keys | ✅ Fully operational (Native) |  
-| TouchPad | ✅ Fully functional |  
-| Card Reader and Type-C Port | ✅ Fully operational |  
-| Sleep Functionality | ✅ Works seamlessly with BIOS modifications through UMAF, similar to native Macs |  
+| USB | ✅ Mapped with USBToolBox |  
+| Function Keys | ✅ Native |  
+| TouchPad | ✅ Native |  
+| Card Reader and Type-C Port | ✅ Native |  
+| Sleep | ✅ Works seamlessly with BIOS modifications (S3 Sleep: On) through UMAF |  
 | Battery Management | ✅ Battery health and charging limit features available |  
-| IOReg | ✅ Properly configured IOReg |  
-| Additional Notes | Battery life approximately 2 hours; typical temperature range: 45ºC to 65ºC |  
+| IOReg & EFI | ✅ Properly configured IOReg & EFI |  
 
 ## Non-Functional
 | Feature | Status |  
@@ -55,7 +53,7 @@
 ## Function Keys
 
 > [!NOTE]
-> Function keys are mapped for direct use without needing to press Fn+Fx, akin to a Windows environment.
+> Function keys are mapped for direct use without needing to press Fn+Fx, akin to normal Windows environment.
 > - Fn+Esc: Function key lock
 > - F1: Mute
 > - F2: Decrease volume

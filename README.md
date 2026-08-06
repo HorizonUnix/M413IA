@@ -11,7 +11,7 @@
 # Specifications
 
 | Hardware | Details |  
-| :---: | :---: |  
+| :---: |:---: |  
 | Model | Asus VivoBook M413IA EK480T |  
 | Processor | AMD Ryzen 5 4500U with Radeon Graphics |  
 | RAM | 8GB Onboard RAM |  
@@ -29,7 +29,7 @@
 # Features
 ## Functional
 | Feature | Status |  
-| :---: | :---: |  
+| :---: |:---: |  
 | SMBios | MacBookPro16,3 |  
 | CPU Power Management | ✅ Use [ZenTune](https://github.com/HorizonUnix/ZenTune) |
 | iGPU/APU | ✅ Functional |  
@@ -45,7 +45,7 @@
 
 ## Non-Functional
 | Feature | Status |  
-| :---: | :---: |  
+| :---: |:---: |  
 | Apple DRM | ❌ Unsupported (Apple TV and other DRM-related content) |  
 | Continuity Features (Intel) | ❌ Only limited Handoff functionality with Intel WiFi card |  
 | VCN 2, HE, HD | ❌ VCN 2 (Video Core Next 2) non-functional, VCN 1 operational |  

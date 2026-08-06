@@ -64,35 +64,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PRW.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-SLPB_STA0B.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SLPB_STA0B.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-USB-Reset.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USB-Reset.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -152,36 +128,6 @@
 				<data></data>
 				<key>Replace</key>
 				<data>WE9TSQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>GPRW to XPRW Rename</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>R1BSVwI=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WFBSVwI=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -2207,7 +2153,7 @@
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>

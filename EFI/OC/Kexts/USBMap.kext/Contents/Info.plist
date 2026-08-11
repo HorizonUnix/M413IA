@@ -139,7 +139,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro16,3</string>
+			<string>MacBookPro16,2</string>
 		</dict>
 		<key>XHC1</key>
 		<dict>
@@ -213,7 +213,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro16,3</string>
+			<string>MacBookPro16,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>

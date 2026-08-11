@@ -1,3 +1,7 @@
+## [4.0.0]
+
+- Added support for macOS 26 Tahoe
+
 ## [3.4.0]
 
 - Updated ACPI Patches

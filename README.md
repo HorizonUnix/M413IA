@@ -29,7 +29,7 @@
 ## Functional
 | Feature | Status |  
 | :--- | :--- |  
-| SMBios | MacBookPro16,3 |  
+| SMBios | MacBookPro16,2 |  
 | CPU Power Management | ✅ Use [ZenTune](https://github.com/HorizonUnix/ZenTune) |
 | iGPU/APU | ✅ Functional |  
 | Audio | ✅ Internal speakers and microphone operational (AppleALC layout 56 for ALC256 with ComboJack); HDMI audio unsupported (Use VoodooHDA instead of AppleALC) |  
@@ -71,4 +71,3 @@
 
 # Preview
 <img src="Img/info.png" alt="About This Mac" title="About This Mac">
-

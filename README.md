@@ -6,7 +6,6 @@
 > [!NOTE]
 > - This model features a CNVi-only lock key, preventing support for **BCM94360NG**.
 > - Use [ComboJack](https://github.com/macos86/ComboJack) to fix the 3.5mm audio port issue.
-> - Tahoe support will be delayed until I find a way to prevent sleep from causing a kernel panic on Tahoe
 
 # Specifications
 
